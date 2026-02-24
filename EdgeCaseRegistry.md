@@ -1,6 +1,6 @@
 # Edge Case Registry — Central Index
 
-> Master list of all edge-case IDs across every module in the [[index|Attendance System]].
+> Master list of all edge-case IDs across every module in the [[AttendanceWebApp/index|Attendance System]].
 > Use this as a **cross-reference** to check for duplicates, conflicts, and missing coverage.
 
 ---

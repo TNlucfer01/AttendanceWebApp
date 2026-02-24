@@ -1,6 +1,6 @@
 # Agile Methodology — Basics for Solo Developers
 
-> A practical introduction to Agile for building the [[index|Attendance Web App]] as a **solo developer** within a **7-day sprint**.
+> A practical introduction to Agile for building the [[AttendanceWebApp/index|Attendance Web App]] as a **solo developer** within a **7-day sprint**.
 
 ---
 
@@ -135,4 +135,4 @@ Categorize every feature as:
 
 ## Related
 - [[Sprint_Plan]] — The 7-day project plan for this app
-- [[index]] — Project master index
+- [[AttendanceWebApp/index]] — Project master index

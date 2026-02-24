@@ -3,7 +3,7 @@
 > **Sprint Duration:** Feb 22 – Feb 28, 2026  
 > **Team Size:** 1 developer  
 > **Methodology:** [[Agile_Basics|Agile (Solo Sprint)]]  
-> **Sprint Goal:** Build a functional MVP of the [[index|Attendance Web App]]
+> **Sprint Goal:** Build a functional MVP of the [[AttendanceWebApp/index|Attendance Web App]]
 
 ---
 
@@ -12,8 +12,8 @@
 | Layer | Technology |
 |---|---|
 | Backend | Java (Spring Boot) |
-| Frontend | HTML/CSS/JS (Thymeleaf or React) |
-| Database | MySQL / PostgreSQL |
+| Frontend | HTML/CSS/JS  React |
+| Database | MySQL|
 | Auth | Spring Security + JWT |
 | Build | Maven |
 | Version Control | Git |
@@ -55,7 +55,7 @@ Nice-to-have polish:
 
 ### ❌ Won't Have (This Sprint)
 Explicitly deferred:
-- Document upload (experimental as per [[index]])
+- Document upload (experimental as per [[AttendanceWebApp/index]])
 - WCAG accessibility
 - Email OTP for password reset
 - System health monitoring dashboard
@@ -69,15 +69,15 @@ Explicitly deferred:
 ### 📅 Day 1 — Foundation (Feb 22, Sat)
 **Goal:** Project skeleton + database + auth
 
-| # | Task | Est. Hours | Status |
-|---|---|---|---|
-| 1.1 | Initialize Spring Boot project (Maven, dependencies) | 1h | [ ] |
-| 1.2 | Design database schema (all tables, relationships, constraints) | 2h | [ ] |
-| 1.3 | Create database + run migration scripts | 1h | [ ] |
-| 1.4 | Implement [[Auth]] — Login endpoint (email + password) | 2h | [ ] |
-| 1.5 | Implement JWT token generation + validation | 1h | [ ] |
-| 1.6 | Pre-seed Admin account | 0.5h | [ ] |
-| 1.7 | Git init + first commit | 0.5h | [ ] |
+| #   | Task                                                            | Est. Hours | Status |
+| --- | --------------------------------------------------------------- | ---------- | ------ |
+| 1.1 | Initialize Spring Boot project (Maven, dependencies)            | 1h         | [ ]    |
+| 1.2 | Design database schema (all tables, relationships, constraints) | 2h         | [ ]    |
+| 1.3 | Create database + run migration scripts                         | 1h         | [ ]    |
+| 1.4 | Implement [[Auth]] — Login endpoint (email + password)          | 2h         | [ ]    |
+| 1.5 | Implement JWT token generation + validation                     | 1h         | [ ]    |
+| 1.6 | Pre-seed Admin account                                          | 0.5h       | [ ]    |
+| 1.7 | Git init + first commit                                         | 0.5h       | [ ]    |
 
 **Deliverable:** App boots up, admin can log in, JWT works.
 
@@ -242,5 +242,5 @@ At the end of the sprint, answer these:
 
 ## Related
 - [[Agile_Basics]] — Agile methodology fundamentals
-- [[index]] — Project master index
+- [[AttendanceWebApp/index]] — Project master index
 - [[EdgeCaseRegistry]] — Known edge cases to address
